@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Famous Olympic Athletes</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap">
+</head>
+
+<body>
+    <!-- Pantalla de bienvenida -->
+    <div id="welcome-screen">
+        <div class="welcome-message">
+            <h1>¿Quieres ver la página más impresionante del mundo?</h1>
+            <div class="button-container">
+                <button class="welcome-button">Sí</button>
+                <button class="welcome-button">Sí</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="container" id="main-content" style="display: none;">
+        <div class="header">
+            <h1 class="page-title">Famous Olympic Athletes</h1>
+        </div>
+        <div class="grid">
+            <div class="square" data-athlete="khelif">
+                <img src="images/imane-khelif.jpg" alt="Imane Khelif">
+                <p>Imane Khelif</p>
+            </div>
+            <div class="square" data-athlete="duplantis">
+                <img src="images/armand-duplantis.jpg" alt="Armand Duplantis">
+                <p>Armand Duplantis</p>
+            </div>
+            <div class="square" data-athlete="horigome">
+                <img src="images/yuto-horigome.jpg" alt="Yuto Horigome">
+                <p>Yuto Horigome</p>
+            </div>
+            <div class="square" data-athlete="delolio">
+                <img src="images/matias-del-olio.jpg" alt="Matias del Olio">
+                <p>Matias del Olio</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="biography"></div>
+
+    <!-- Canvas para efecto de neuronas -->
+    <canvas id="neuronCanvas"></canvas>
+
+    <!-- Instagram Icon -->
+    <div class="social-icon">
+        <a href="https://www.instagram.com/peiiiww/" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
